@@ -1,7 +1,4 @@
-Claro! Aqui está o conteúdo do `README.md` novamente, para você copiar e colar no seu repositório:
-
-```html
-<h1 align="center">API de Transações</h1>
+# 📌 API de Transações
 
 <p align="center">
   Este projeto é uma API REST desenvolvida em Java com Spring Boot para gerenciar transações e calcular estatísticas das transações realizadas nos últimos 60 segundos.
@@ -29,20 +26,20 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 
 ## 🚀 Como Configurar o Projeto
 
-### 1. Clone o Repositório
+### 1️⃣ Clone o Repositório
 
 ```bash
 git clone https://github.com/Arthurvenicio03/api-transacoes.git
 cd api-transacoes
 ```
 
-### 2. Compile o Projeto
+### 2️⃣ Compile o Projeto
 
 ```bash
 mvn clean install
 ```
 
-### 3. Execute o Projeto
+### 3️⃣ Execute o Projeto
 
 ```bash
 mvn spring-boot:run
@@ -54,7 +51,7 @@ A API estará disponível em `http://localhost:8080`.
 
 ## 🐳 Como Rodar em um Container (Opcional)
 
-### 4.1. Crie a Imagem Docker
+### 4️⃣.1 Crie a Imagem Docker
 
 Certifique-se de que o Docker está instalado e execute:
 
@@ -62,7 +59,7 @@ Certifique-se de que o Docker está instalado e execute:
 docker build -t api-transacoes .
 ```
 
-### 4.2. Execute o Container
+### 4️⃣.2 Execute o Container
 
 ```bash
 docker run -p 8080:8080 api-transacoes
@@ -74,7 +71,7 @@ A API estará disponível em `http://localhost:8080`.
 
 ## 📚 Documentação da API
 
-### Receber Transações
+### 🔹 Receber Transações
 
 - **Método**: `POST`
 - **Endpoint**: `/transacao`
@@ -82,7 +79,7 @@ A API estará disponível em `http://localhost:8080`.
   - `valor` (BigDecimal): Obrigatório. O valor da transação.
   - `dataHora` (OffsetDateTime): Obrigatório. O horário que a transação ocorreu.
 
-**Exemplo de Requisição**:
+📌 **Exemplo de Requisição**:
 
 ```json
 {
@@ -91,21 +88,21 @@ A API estará disponível em `http://localhost:8080`.
 }
 ```
 
-### Limpar Transações
+### 🔹 Limpar Transações
 
 - **Método**: `DELETE`
 - **Endpoint**: `/transacao`
 
 Este endpoint remove todas as transações armazenadas.
 
-### Calcular Estatísticas
+### 🔹 Calcular Estatísticas
 
 - **Método**: `GET`
 - **Endpoint**: `/estatistica`
 - **Parâmetros**:
   - `intervaloSegundos` (integer): Não obrigatório. O intervalo de tempo em segundos para calcular as estatísticas. O padrão é 60 segundos.
 
-**Exemplo de Resposta**:
+📌 **Exemplo de Resposta**:
 
 ```json
 {
@@ -130,4 +127,3 @@ Feito com ❤️ por **Arthur Venicio** 👋
 <p align="center">
   ⭐️ Se este projeto te ajudou, deixe uma estrela no repositório! ⭐️
 </p>
-```
