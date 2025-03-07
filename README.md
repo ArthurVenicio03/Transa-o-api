@@ -87,6 +87,8 @@ A API estará disponível em `http://localhost:8080`.
   "dataHora": "2023-10-01T12:34:56Z"
 }
 ```
+![post](https://github.com/user-attachments/assets/53b26397-d233-48db-9598-9ea252218b86)
+
 
 ### 🔹 Limpar Transações
 
@@ -94,6 +96,14 @@ A API estará disponível em `http://localhost:8080`.
 - **Endpoint**: `/transacao`
 
 Este endpoint remove todas as transações armazenadas.
+
+![delet](https://github.com/user-attachments/assets/f410bbcb-8f2f-4d59-acd2-14e32ac452cb)
+
+##Video Demonstração
+
+https://github.com/user-attachments/assets/25d25190-dd32-4ad0-bbca-1ca4911362b4
+
+
 
 ### 🔹 Calcular Estatísticas
 
@@ -113,6 +123,8 @@ Este endpoint remove todas as transações armazenadas.
   "quantidade": 4
 }
 ```
+![estastirsi](https://github.com/user-attachments/assets/cf5691a8-e4e2-47cc-8108-8300c2ae0d69)
+
 
 ---
 
