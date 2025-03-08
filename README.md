@@ -13,6 +13,10 @@
 </p>
 
 ---
+##Video Demonstração
+
+https://github.com/user-attachments/assets/25d25190-dd32-4ad0-bbca-1ca4911362b4
+--------
 
 ## 🛠️ Pré-requisitos
 
@@ -98,10 +102,6 @@ A API estará disponível em `http://localhost:8080`.
 Este endpoint remove todas as transações armazenadas.
 
 ![delet](https://github.com/user-attachments/assets/f410bbcb-8f2f-4d59-acd2-14e32ac452cb)
-
-##Video Demonstração
-
-https://github.com/user-attachments/assets/25d25190-dd32-4ad0-bbca-1ca4911362b4
 
 
 
